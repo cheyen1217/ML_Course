@@ -76,13 +76,13 @@ def ml_loop(side: str):
                 x = -x      
             
             
-        kkk = random.randint(0,1)
-        if kkk == 0:
-            x = float(x)
-            x += 2.25
-        else:
-            x = float(x)
-            x -= 2.25
+        #kkk = random.randint(0,1)
+        #if kkk == 0:
+           # x = float(x)
+           # x += 2.25
+        #else:
+           # x = float(x)
+            #x -= 2.25
         
         return move_to(player = '1P',pred = x)
             
